@@ -9,6 +9,9 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "http://github.com/AnonymousX1025/AnonXMusic")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
