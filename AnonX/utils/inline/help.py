@@ -35,7 +35,14 @@ def help_pannel(_, START: Union[bool, int] = None):
                     callback_data="help_callback hb3",
                 ),
             ],
-            [
+            ]
+    second = [
+        InlineKeyboardButton(
+            text=_["MORE"],
+            callback_data="https://t.me/ab_krishna_uff",
+        ),
+
+[
                 InlineKeyboardButton(
                     text="ʙʀᴏᴀᴅᴄᴀsᴛ",
                     callback_data="help_callback hb4",
