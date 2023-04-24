@@ -20,7 +20,7 @@ def help_pannel(_, START: Union[bool, int] = None):
     ]
     mark = second if START else first
     upl = InlineKeyboardMarkup(
-        
+        [
             [
                 InlineKeyboardButton(
                     text="ᴀᴅᴍɪɴ",
@@ -35,8 +35,7 @@ def help_pannel(_, START: Union[bool, int] = None):
                     callback_data="help_callback hb3",
                 ),
             ],
-            ]
-[
+            [
                 InlineKeyboardButton(
                     text="ʙʀᴏᴀᴅᴄᴀsᴛ",
                     callback_data="help_callback hb4",
@@ -79,6 +78,7 @@ def help_pannel(_, START: Union[bool, int] = None):
                 ),
             ],
             mark,
+        ]
     )
     return upl
 
