@@ -39,8 +39,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             text=_["MORE"],
             url="https://t.me/ab_krishna_uff",
         ),   
-     
-   [
+     ],
+
+  [
             InlineKeyboardButton(
                 text="ʜᴇʟᴩ", callback_data="settings_back_helper"
             )
