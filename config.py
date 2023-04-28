@@ -87,7 +87,7 @@ PLAYLIST_IMG_URL = "https://te.legra.ph/file/ee9739bd37ae3e462aa0a.jpg"
 
 GLOBAL_IMG_URL = "https://te.legra.ph/file/ee9739bd37ae3e462aa0a.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/ee9739bd37ae3e462aa0a.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/d2c1be023acca5243efb5.jpg"
 
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/ee9739bd37ae3e462aa0a.jpg"
 
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/ee9739bd37ae3e462aa0a.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/d2c1be023acca5243efb5.jpg"
