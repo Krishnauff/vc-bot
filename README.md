@@ -1,4 +1,5 @@
-<H2 "https://te.legra.ph/file/93fa0a960d827fff16f14.jpg"
+<p align="center"><a href="https://telegram.me/NO_LOVE_I_HATE_LOVE"><img src="https://te.legra.ph/file/a116a2082b3d452731591.jpg"></a></p>
+
 <h2 align="center">
     ──「 KRISHNA ダ AARU ɮՕT 」──
 
