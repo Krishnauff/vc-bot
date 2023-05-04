@@ -12,4 +12,4 @@
 ## 🖇 Generating Pyrogram String Session
 
 <p>
-<a href="https://replit.com/@Krishnauff/Krishna-StringSession"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
+<a href="https://replit.com/@Krishnauff/Krishna-StringSession?v=1"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
