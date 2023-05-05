@@ -241,7 +241,9 @@ def track_markup(_, videoid, user_id, channel, fplay):
             ),
 
         ],
+    ]
 
+    return buttons
 
 
 
