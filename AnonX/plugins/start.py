@@ -202,7 +202,7 @@ async def start_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                await message.reply_sticker("CAACAgUAAxkBAAOrZEYB3XPodmi0q2HJXBpknPW2Z5kAAmYIAAL8E-lVycXRvxv7PpgvBA")
+                await message.reply_sticker("CAACAgUAAxkBAAIFxmRaV62BFmOcpC-sof0r7LOF7Uf0AAJoCgACbHTgVsyfFgrR5e9ILwQ-lVycXRvxv7PpgvBA")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
