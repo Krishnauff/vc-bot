@@ -36,7 +36,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
       [
         InlineKeyboardButton(
-            text="🫧ᴄʜᴀɴɴᴇʟ🫧",
+            text="ᴄʜᴀɴɴᴇʟ",
             url=f"https://t.me/ab_krishna_uff",
         ) 
      ],
@@ -56,7 +56,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
 [
             InlineKeyboardButton(
-                text="✨ sᴏᴜʀᴄᴇ ✨", url=f"https://github.com/Krishnauff/Anonmusic"
+                text="✨ sᴏᴜʀᴄᴇ ✨", url=f"https://t.me/NO_LOVE_I_HATE_LOVE"
             )
         ],
      ]
