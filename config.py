@@ -28,7 +28,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ab_krishna_uff")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Ajanabee_Duniya")
 
-SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
+
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
