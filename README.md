@@ -1,4 +1,9 @@
 <p align="center"><a href="https://telegram.me/NO_LOVE_I_HATE_LOVE"><img src="https://te.legra.ph/file/93fa0a960d827fff16f14.jpg"></a></p>
+## <i>ᴄʜᴇᴄᴋ ᴛʜᴇ ᴅᴇᴍᴏ ʀᴏʙᴏᴛ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ!</i>
+
+<i>ᴀʟʟ ᴛʜᴇ ᴄᴜsᴛᴏᴍɪsᴀᴛɪᴏɴs ᴀʀᴇ ᴀᴠᴀɪʟᴀʙʟᴇ. ᴊᴜsᴛ ᴄʜᴇᴄᴋᴏᴜᴛ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴠᴀʀɪᴀʙʟᴇs.</i>
+
+<p align="center"><a href="https://telegram.me/Krishna_opmusic_bot"> <img src="https://img.shields.io/badge/CHECK-Demo%20Robot-black?style=for-the-badge&logo=Telegram" width="220" height="39"/></a></p>
 
 <h2 align="center">
   「 𝐊𝐑𝐈𝐒𝐇𝐍𝐀_𝐔𝐅𝐅 」
