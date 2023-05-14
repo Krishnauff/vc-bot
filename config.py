@@ -9,7 +9,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Krishnauff/vc-bot.git")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Khushijha5544/KHUSHI-MUSICBOT.git")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
