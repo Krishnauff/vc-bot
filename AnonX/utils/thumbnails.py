@@ -12,7 +12,7 @@ from youtubesearchpython.__future__ import VideosSearch
 from config import YOUTUBE_IMG_URL
 from AnonX import app
 YOUTUBE_IMG_URL = [ 
-"https://graph.org/file/eee0b64e78605897ef89e.png",
+"https://graph.org/file/0bff0ec2ed7178937830c.jpg",
 "https://graph.org/file/eee0b64e78605897ef89e.png",
 "https://graph.org/file/eee0b64e78605897ef89e.png",
 "https://graph.org/file/eee0b64e78605897ef89e.png",
