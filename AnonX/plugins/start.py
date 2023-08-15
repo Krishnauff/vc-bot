@@ -57,7 +57,7 @@ async def start_comm(client, message: Message, _):
             keyboard = help_pannel(_)
             await message.reply_sticker("CAACAgUAAxkBAAJgOGTbA8fAr5oBVaCjit0AASLQnXeLDgAC3gQAAk6FqVZdMz09Cd1n2DAE")
             return await message.reply_photo(
-                       random.choice(NIBI_IMG),
+                       photo=random.choice(NIBI_IMG),
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
             )
         if name[0:4] == "song":
@@ -212,11 +212,11 @@ async def start_comm(client, message: Message, _):
         except:
             OWNER = None
         out = private_panel(_, app.username, OWNER)
-        if config.START_IMG_URL:
+        if random.choice(NIBI_IMG),
             try:
                 await message.reply_sticker("CAACAgUAAxkBAAJgOGTbA8fAr5oBVaCjit0AASLQnXeLDgAC3gQAAk6FqVZdMz09Cd1n2DAE")
                 await message.reply_photo(
-                    random.choice(NIBI_IMG),
+                    photo=random.choice(NIBI_IMG),
                     caption=_["start_2"].format(
                         config.MUSIC_BOT_NAME
                     ),
@@ -252,7 +252,7 @@ async def testbot(client, message: Message, _):
     OWNER = OWNER_ID[0]
     out = start_pannel(_, app.username, OWNER)
     return await message.reply_photo(
-               photo=config.START_IMG_URL,
+               photo=random.choice(NIBI_IMG),
                caption=_["start_1"].format(
             message.chat.title, config.MUSIC_BOT_NAME
         ),
@@ -294,7 +294,7 @@ async def welcome(client, message: Message):
                 OWNER = OWNER_ID[0]
                 out = start_pannel(_, app.username, OWNER)
                 await message.reply_photo(
-                    photo=config.START_IMG_URL,
+                    photo=random.choice(NIBI_IMG),
                     caption=_["start_3"].format(
                         config.MUSIC_BOT_NAME,
                         userbot.username,
