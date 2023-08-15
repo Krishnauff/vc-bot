@@ -6,18 +6,6 @@ from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 from youtubesearchpython.__future__ import VideosSearch
 
-NIBI_IMG = (
-"https://te.legra.ph/file/1b82afbf90d074849136e.jpg",
-"https://te.legra.ph/file/0f64be1cf523f76aa0e2e.jpg",
-"https://te.legra.ph/file/1bedd3d90170cc6da5282.jpg",
-"https://te.legra.ph/file/c18b4ff72e93a1def1eef.jpg",
-"https://te.legra.ph/file/43b1aff6ba286cd61b4cc.jpg",
-"https://te.legra.ph/file/45f301147ffede1856f0d.jpg",
-"https://te.legra.ph/file/40f551a935da47f59ff64.jpg",
-"https://te.legra.ph/file/d99a4cfcf0b85b0edd559.jpg",
-
-)
-
 import config
 from config import BANNED_USERS
 from config import OWNER_ID
@@ -57,7 +45,7 @@ async def start_comm(client, message: Message, _):
             keyboard = help_pannel(_)
             await message.reply_sticker("CAACAgUAAxkBAAJgOGTbA8fAr5oBVaCjit0AASLQnXeLDgAC3gQAAk6FqVZdMz09Cd1n2DAE")
             return await message.reply_photo(
-                       photo=random.choice(NIBI_IMG),
+                       photo=config.START_IMG_URL_1,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
             )
         if name[0:4] == "song":
@@ -212,11 +200,11 @@ async def start_comm(client, message: Message, _):
         except:
             OWNER = None
         out = private_panel(_, app.username, OWNER)
-        if random.choice(NIBI_IMG),
+        if config.START_IMG_URL:
             try:
                 await message.reply_sticker("CAACAgUAAxkBAAJgOGTbA8fAr5oBVaCjit0AASLQnXeLDgAC3gQAAk6FqVZdMz09Cd1n2DAE")
                 await message.reply_photo(
-                    photo=random.choice(NIBI_IMG),
+                    photo=config.START_IMG_URL_2,
                     caption=_["start_2"].format(
                         config.MUSIC_BOT_NAME
                     ),
@@ -252,7 +240,7 @@ async def testbot(client, message: Message, _):
     OWNER = OWNER_ID[0]
     out = start_pannel(_, app.username, OWNER)
     return await message.reply_photo(
-               photo=random.choice(NIBI_IMG),
+               photo=config.START_IMG_URL,
                caption=_["start_1"].format(
             message.chat.title, config.MUSIC_BOT_NAME
         ),
@@ -294,7 +282,7 @@ async def welcome(client, message: Message):
                 OWNER = OWNER_ID[0]
                 out = start_pannel(_, app.username, OWNER)
                 await message.reply_photo(
-                    photo=random.choice(NIBI_IMG),
+                    photo=config.START_IMG_URL,
                     caption=_["start_3"].format(
                         config.MUSIC_BOT_NAME,
                         userbot.username,
