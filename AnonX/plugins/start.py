@@ -45,7 +45,7 @@ async def start_comm(client, message: Message, _):
             keyboard = help_pannel(_)
             await message.reply_sticker("CAACAgUAAxkBAAJgOGTbA8fAr5oBVaCjit0AASLQnXeLDgAC3gQAAk6FqVZdMz09Cd1n2DAE")
             return await message.reply_photo(
-                       photo=config.START_IMG_URL_1,
+                       photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
             )
         if name[0:4] == "song":
@@ -204,7 +204,7 @@ async def start_comm(client, message: Message, _):
             try:
                 await message.reply_sticker("CAACAgUAAxkBAAJgOGTbA8fAr5oBVaCjit0AASLQnXeLDgAC3gQAAk6FqVZdMz09Cd1n2DAE")
                 await message.reply_photo(
-                    photo=config.START_IMG_URL_2,
+                    photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
                         config.MUSIC_BOT_NAME
                     ),
