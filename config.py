@@ -87,8 +87,8 @@ PLAYLIST_IMG_URL = "https://te.legra.ph/file/ee9739bd37ae3e462aa0a.jpg"
 
 GLOBAL_IMG_URL = "https://te.legra.ph/file/ee9739bd37ae3e462aa0a.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/d2c1be023acca5243efb5.jpg"
-
+STATS_IMG_URL_1 = "https://te.legra.ph/file/d2c1be023acca5243efb5.jpg"
+START_IMG_URL_2 = "https://te.legra.ph/file/df7303b95878069d62e14.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/ee9739bd37ae3e462aa0a.jpg"
 
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
